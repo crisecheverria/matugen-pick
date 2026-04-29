@@ -7,6 +7,12 @@ macOS: browse a folder of images with [fzf](https://github.com/junegunn/fzf)
 [matugen](https://github.com/InioX/matugen) which prompts for a source color
 and regenerates Material You themes for any apps you've templated.
 
+## Demo
+
+<video src="https://github.com/crisecheverria/matugen-pick/raw/main/demo.mp4" controls width="100%"></video>
+
+If the player above does not load, [download or play demo.mp4 directly](demo.mp4).
+
 ## Requirements
 
 - macOS (uses `desktoppr` for wallpaper, and the kitty image protocol for previews)
