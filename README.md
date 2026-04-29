@@ -9,9 +9,7 @@ and regenerates Material You themes for any apps you've templated.
 
 ## Demo
 
-<video src="https://github.com/crisecheverria/matugen-pick/raw/main/demo.mp4" controls width="100%"></video>
-
-If the player above does not load, [download or play demo.mp4 directly](demo.mp4).
+https://github.com/user-attachments/assets/d72d92d5-5a6e-439e-871d-23cfaafeaf83
 
 ## Requirements
 

@@ -8,7 +8,9 @@
 .vscode/
 .idea/
 
-# Source recordings (only the exported demo.mp4 lives in the repo)
+# Demo media — the README embeds a video hosted on GitHub's user-attachments
+# CDN, so binary media stays out of the repo to keep clones small.
+*.mp4
 *.mov
 *.webm
 
