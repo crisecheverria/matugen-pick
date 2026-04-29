@@ -11,6 +11,29 @@ and regenerates Material You themes for any apps you've templated.
 
 https://github.com/user-attachments/assets/d72d92d5-5a6e-439e-871d-23cfaafeaf83
 
+## What does matugen do? (explain like I'm 5)
+
+Imagine you painted a picture and an artist friend said "okay, I'll pick out a
+whole set of crayons that match your picture — a dark one for the background,
+a bright one for cool stuff, a softer one for less important stuff." That's
+matugen.
+
+The flow:
+
+1. You hand it a wallpaper image.
+2. It looks at the colors and grabs one as the "main" color (in the demo above,
+   it's the warm brown it pulled out of the wallpaper).
+3. It uses Google's Material You math — the same thing Android phones do to
+   recolor your apps based on your wallpaper — to generate a coordinated set
+   of about 30 colors: backgrounds, foregrounds, accents, borders, etc.
+4. It writes those colors into config files for whatever apps you've templated,
+   so kitty, nvim, etc. suddenly look like they belong with your wallpaper.
+
+`matugen-pick` is just the "browse a folder and pick the wallpaper" front end.
+The cool effect comes from also templating your apps to read matugen's output
+— see [Setting up matugen targets](#setting-up-matugen-targets-nvim-kitty)
+below.
+
 ## Requirements
 
 - macOS (uses `desktoppr` for wallpaper, and the kitty image protocol for previews)
